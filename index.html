@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yardım Formu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha384-JQS9q3gASZL7gHJcdGtC0nIg0jyCcAnWxJbMzX9nqbNo"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Afet Yardım Formu</h1>
+    <form action="submit.php" method="post">
+      <div class="form-group">
+        <label for="isim">İsim:</label>
+        <input
+          type="text"
+          id="isim"
+          name="isim"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="soyisim">Soyisim:</label>
+        <input
+          type="text"
+          id="soyisim"
+          name="soyisim"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="telefon">Telefon Numarası:</label>
+        <input
+          type="text"
+          id="telefon"
+          name="telefon"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="adres">Adres:</label>
+        <input
+          type="text"
+          id="adres"
+          name="adres"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="yardimTuru">Yardım Türü:</label>
+        <input
+          type="text"
+          id="yardimTuru"
+          name="yardimTuru"
+          class="form-control"
+          required
+        />
+      </div>
+
+      <input type="submit" value="Gönder" class="btn btn-primary" />
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

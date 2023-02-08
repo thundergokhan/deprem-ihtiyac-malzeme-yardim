@@ -1,0 +1,40 @@
+body {
+  background-color: #ffff99;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
