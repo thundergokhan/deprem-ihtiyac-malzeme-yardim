@@ -19,9 +19,11 @@ Bu repository, Türkiye'deki deprem zedelerine yardım amacıyla bir web uygulam
 ## Kurulum
 1. Repository'yi klonlayın veya indirin
 2. Proje dizinine gidin ve aşağıdaki komutu çalıştırın:
-$ npm install
-3. Uygulamayı çalıştırmak için aşağıdaki komutu çalıştırın:
-$ npm install
+3. "npm install"
+4. Uygulamayı çalıştırmak için aşağıdaki komutu çalıştırın:
+"npm start"
 
 
 ## Uygulama, tarayıcınızda `http://localhost:3000` adresinde açılacaktır.
+## Katkı
+Bu proje açık kaynaklıdır ve herkesin katkısına açıktır. Eğer projeye katkıda bulunmak istiyorsanız lütfen pull request gönderin.
